@@ -1,0 +1,36 @@
+.FirstPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FPWelcomeText {
+    padding-top: 100px;
+    max-width: 650px;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+
+.FPButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+
+}
+
+.FPbgi {
+    background:linear-gradient(rgba(252, 252, 252, 0), 80%, black), url('./screens.png');
+    position: static;
+    width: 1550px;
+    height: 841px;
+    margin-top: 50px;
+}

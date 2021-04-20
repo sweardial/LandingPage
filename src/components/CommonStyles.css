@@ -1,0 +1,29 @@
+
+.Page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph_center {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 582px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.LargeText_center {
+    margin-top: 100px;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }

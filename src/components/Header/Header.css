@@ -1,0 +1,43 @@
+.Header {
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    height:119px;
+    align-items: center;
+    justify-content: center;
+    color:white;       
+}
+
+
+.LogoImage {
+    position: static;
+    width: 186px;
+    height: 58px;
+    left:200px;
+    background: url('./Rectangle.png');
+    cursor: pointer;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    list-style: none;
+    justify-content: end;
+    gap:10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nav-links {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin: 30px;
+    text-decoration: none;
+
+}

@@ -1,0 +1,55 @@
+.Item {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  height: fit-content;
+}
+
+.LogoH1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+div h1 {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  max-width: 161px;
+}
+
+div p {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.Vector1 {
+  width: 25.49px;
+  height: 23.66px;
+  margin-right: 10px;
+  background: url('./pictures/Vector\ \(1\).png');
+}
+
+.Vector2 {
+  margin-right: 10px;
+  width: 29px;
+  height: 30px;
+  background: url('./pictures/Vector\ \(2\).png');
+}
+
+.Vector3 {
+  margin-right: 10px;
+  width: 41px;
+  height: 19px;
+  background: url('./pictures/Vector\ \(3\).png');
+}

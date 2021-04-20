@@ -1,0 +1,40 @@
+.SPLargeText {
+  margin-top: 100px;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.SProw {
+  display: flex;
+  flex-direction: row;
+}
+.ChatBot {
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+  width: 696px;
+  height: 659px;
+  background: url('./pictures/ChatBot.png');
+}
+
+.LineChart {
+  margin-top: 450px;
+  margin-left: -370px;
+  margin-bottom: 60px;
+  width: 450px;
+  height: 300px;
+  background: url('./pictures/LineChart1.png');
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+}
+
+.SPTextArea {
+  margin-top: 100px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  height: fit-content;
+}

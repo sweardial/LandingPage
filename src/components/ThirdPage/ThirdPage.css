@@ -1,0 +1,53 @@
+.Components {
+    display: flex;
+    flex-direction: row;
+}
+
+.ThirdPageComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 620px;
+    width:476px;
+    background-color: #fff;
+    margin:20px;
+}
+
+.head_text {
+    margin-top: -300px;
+    margin-bottom: 40px;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #000000;
+
+}
+
+
+.description {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color:black;
+    width: 263px;
+    margin-bottom: 50px;
+}
+
+.first {
+    height:310px;
+    width: 410px;
+    margin-bottom: -300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./pictures/BoardsNotifications.png');
+}

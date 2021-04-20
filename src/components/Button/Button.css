@@ -1,0 +1,21 @@
+.btn {
+    color:white;
+    padding: 8px 35px;
+    outline:none;
+    border:none;
+    cursor: pointer;
+    background:transparent;
+    border:1px solid white;
+    border-radius: 2px;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn--colored {
+    padding: 15px 35px;
+    border: 0;
+    background-color: rgba(1, 86, 245, 0.925);
+}
