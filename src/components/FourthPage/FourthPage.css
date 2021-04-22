@@ -1,0 +1,54 @@
+.FPPictures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.BigPicture {
+  margin: 7px;
+  height: 285px;
+  width: 395px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.SmallPicture {
+  margin: 7px;
+  height: 285px;
+  width: 225px;
+  border-radius: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.first {
+  background-image: url('./pictures/Rectangle1.png');
+}
+
+.second {
+  background-image: url('./pictures/Rectangle5.png');
+}
+
+.third {
+  background-image: url('./pictures/Rectangle3.png');
+}
+
+.fourth {
+  background-image: url('./pictures/Rectangle4.png');
+}
+
+.sixth {
+  background-image: url('./pictures/Rectangle2.png');
+}
+
+.seventh {
+  background-image: url('./pictures/Rectangle7.png');
+}
+
+.eight {
+  background-image: url('./pictures/Rectangle6.png');
+}

@@ -1,0 +1,43 @@
+.PartnersLogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: fit-content;
+    align-items: center;
+}
+
+.Logos {
+    margin:50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.apple {
+    height: 60px;
+    width: 60px;
+    background: url('./pictures/Vector1.1.png');
+}
+
+.android {
+    width: 60px;
+    height: 71px;
+    background: url('./pictures/Vector3.png');
+}
+
+.mountain {
+    height: 61px;
+    width: 73px;
+    background: url('./pictures/Vector4.png');
+}
+
+.airbnb {
+    height: 65px;
+    width: 61px;
+    background: url('./pictures/Vector5.png');
+}
+
+.ibm {
+    height: 60px;
+    width: 150px;
+    background: url('./pictures/Vector6.png');
+}

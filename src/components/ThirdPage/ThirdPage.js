@@ -15,13 +15,13 @@ const ThirdPage = () => {
           main_text='Work'
           description='Ever wondered if youre too reliant on a client for work? Slate helps you identify .'
           buttonText='Sign Up'
-          image_url='first'
+          image_url='first1'
         />
         <ThirdPageComponent
           main_text='Design with real data'
           description='Ever wondered if youre too reliant on a client for work? Slate helps you identify .'
           buttonText='Try For Free'
-          image_url='first'
+          image_url='first1'
         />
       </div>
     </div>
