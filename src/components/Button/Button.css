@@ -19,3 +19,7 @@
     border: 0;
     background-color: rgba(1, 86, 245, 0.925);
 }
+
+.btn:hover {
+    background: red;
+}

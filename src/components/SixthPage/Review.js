@@ -1,13 +1,13 @@
 import React from 'react';
-import './Review.css'
+import './SixthPage.css'
 
-const Review = ({photo, name, profession }) => {
+const Review = ({photo, name, profession}) => {
   return (
     <div className='Rv'>
       <div className='Info'>
-        <img className='Photo' src={photo} alt='ph'></img>
+        <div className={photo}></div>
         <div className='NameProfession'>
-            <p>{name}</p>
+            <p id='name'>{name}</p>
             <p>{profession}</p>
         </div>
       </div>
